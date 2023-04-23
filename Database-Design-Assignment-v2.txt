@@ -1,0 +1,6 @@
+"Your product manager has already started scoping out more features for this app. Because of your team's tight deadline, these new features will be moved to v2. While you do not have to worry about v2 requirements while designing v1, it would probably be a good idea to keep them in mind so you allow for enough flexibility and do not design your app into a corner.
+In v2, users will be able to create multiple playlists instead of just one.
+Users will have multiple account types, each with different privileges (the product team is still working on what the types are, but right now it seems like "free", "standard", and "premium" are likely options)."
+
+In order to allow users to have many playlists, a many-to-many relationship will need to be implemented.
+Changing account types will be as simple as adding more columns to the users table.
